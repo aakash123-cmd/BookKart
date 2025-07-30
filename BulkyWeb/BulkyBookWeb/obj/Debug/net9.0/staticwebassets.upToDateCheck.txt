@@ -29,6 +29,7 @@ D:\dot NET\BulkyWeb\BulkyBookWeb\wwwroot\lib\bootstrap\dist\css\bootstrap.min.cs
 D:\dot NET\BulkyWeb\BulkyBookWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 D:\dot NET\BulkyWeb\BulkyBookWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 D:\dot NET\BulkyWeb\BulkyBookWeb\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\dot NET\BulkyWeb\BulkyBookWeb\wwwroot\js\product.js
 D:\dot NET\BulkyWeb\BulkyBookWeb\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
 D:\dot NET\BulkyWeb\BulkyBookWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
 D:\dot NET\BulkyWeb\BulkyBookWeb\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
@@ -63,14 +64,14 @@ D:\dot NET\BulkyWeb\BulkyBookWeb\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.r
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\Images\Product\0480f3c5-2857-4b18-8076-a9237a4e4f3d.jpg
-wwwroot\Images\Product\09fa94e8-6590-42bf-be74-f3779e9a4a31.jpg
+wwwroot\Images\Product\19a6a388-6f8f-4e20-9084-e03ba08e8ea4.jpg
+wwwroot\Images\Product\2b2b1db1-60db-47c0-87b2-fc59b00bea4a.jpg
 wwwroot\Images\Product\3f997c9c-25dc-492e-b0e7-a36c4d6b227d.jpg
+wwwroot\Images\Product\98c767b5-fa91-4f5d-83ef-c577f46f82da.jpg
 wwwroot\Images\Product\9dd1b2d6-fa69-4731-8bbb-079202bdec84.jpg
 wwwroot\Images\Product\a4f1e9e1-8699-4d1b-8187-abb05bb9cd2e.jpg
 wwwroot\Images\Product\b6a2b875-dbb6-499e-8785-4f0024d258a2.jpg
-wwwroot\Images\Product\c362db74-ac4e-4cf7-84b8-19c76f10ade0.jpg
-wwwroot\Images\Product\d67abfc2-f923-46a4-9772-abe6a6acf31c.jpg
-wwwroot\Images\Product\f4d71b9c-6d26-4658-8348-dee04252405a.jpg
+wwwroot\js\product.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

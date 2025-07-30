@@ -6,6 +6,10 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 
+<PropertyGroup>
+    <ContinueOnError>WarnAndContinue</ContinueOnError>
+  </PropertyGroup>
+
 	<ItemGroup>
 	  <Compile Remove="Areas\**" />
 	  <Content Remove="Areas\**" />

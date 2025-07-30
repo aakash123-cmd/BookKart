@@ -1,18 +1,15 @@
 ﻿using BulkyBook.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using Microsoft.Extensions.Options;
-using System.Buffers.Text;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace BulkyBook.DataAccess.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext
     // DbContext is the base class in EF Core used to interact with the database.
     // ApplicationDbContext is your custom context that tells EF Core what entities (tables) to track and how to configure them.
 
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext>options) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
             //This constructor accepts DbContextOptions and passes it to the base class. These options (like connection strings, provider info, etc.)
             //are configured in Program.cs or Startup.cs.This is Dependency Injection in action — the framework injects the required options when the app starts.
         {
@@ -28,6 +25,7 @@ namespace BulkyBook.DataAccess.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Category>().HasData(
                 new Category { Id = 1, Name = "Action", DisplayOrder = 1 },
                 new Category { Id = 2, Name = "SciFi", DisplayOrder = 2 },
