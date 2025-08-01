@@ -343,10 +343,6 @@ D:\dot NET\BulkyWeb\BulkyBookWeb\obj\Debug\net9.0\refint\BulkyBookWeb.dll
 D:\dot NET\BulkyWeb\BulkyBookWeb\obj\Debug\net9.0\BulkyBookWeb.pdb
 D:\dot NET\BulkyWeb\BulkyBookWeb\obj\Debug\net9.0\BulkyBookWeb.genruntimeconfig.cache
 D:\dot NET\BulkyWeb\BulkyBookWeb\obj\Debug\net9.0\ref\BulkyBookWeb.dll
-D:\dot NET\BulkyWeb\BulkyBookWeb\bin\Debug\net9.0\EntityFramework.SqlServer.dll
-D:\dot NET\BulkyWeb\BulkyBookWeb\bin\Debug\net9.0\EntityFramework.dll
-D:\dot NET\BulkyWeb\BulkyBookWeb\bin\Debug\net9.0\Microsoft.AspNet.Identity.Core.dll
-D:\dot NET\BulkyWeb\BulkyBookWeb\bin\Debug\net9.0\Microsoft.AspNet.Identity.EntityFramework.dll
 D:\dot NET\BulkyWeb\BulkyBookWeb\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\dot NET\BulkyWeb\BulkyBookWeb\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
 D:\dot NET\BulkyWeb\BulkyBookWeb\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
@@ -437,3 +433,7 @@ D:\dot NET\BulkyWeb\BulkyBookWeb\obj\Debug\net9.0\compressed\a3ygkwa5zy-2z0ns9nr
 D:\dot NET\BulkyWeb\BulkyBookWeb\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
 D:\dot NET\BulkyWeb\BulkyBookWeb\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
 D:\dot NET\BulkyWeb\BulkyBookWeb\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+D:\dot NET\BulkyWeb\BulkyBookWeb\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\dot NET\BulkyWeb\BulkyBookWeb\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\dot NET\BulkyWeb\BulkyBookWeb\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+D:\dot NET\BulkyWeb\BulkyBookWeb\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll

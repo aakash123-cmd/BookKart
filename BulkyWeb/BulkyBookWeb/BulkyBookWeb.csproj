@@ -17,7 +17,6 @@
 	  <Compile Include="Areas\Admin\Controllers\ProductController .cs" />
 	  <Compile Include="Areas\Admin\Controllers\CategoryController.cs" />
 	  <Compile Include="Areas\Customer\Controllers\HomeController.cs" />
-	  <Compile Include="Areas\Identity\Data\ApplicationDbContext.cs" />
 	  <Compile Include="Areas\Identity\Pages\Account\AccessDenied.cshtml.cs" />
 	  <Compile Include="Areas\Identity\Pages\Account\ConfirmEmail.cshtml.cs" />
 	  <Compile Include="Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.cs" />

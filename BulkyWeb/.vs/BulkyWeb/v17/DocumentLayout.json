@@ -3,19 +3,15 @@
   "WorkspaceRootPath": "D:\\dot NET\\BulkyWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59AEB7FA-E2A7-41A0-BFD0-8FB3F23C23E2}|..\\Bulky.DataAccess\\BulkyBook.DataAccess.csproj|d:\\dot net\\bulky.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA7DAA1F-74A3-43DB-9471-4AEBC896A5AD}|BulkyBookWeb\\BulkyBookWeb.csproj|d:\\dot net\\bulkyweb\\bulkybookweb\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA7DAA1F-74A3-43DB-9471-4AEBC896A5AD}|BulkyBookWeb\\BulkyBookWeb.csproj|solutionrelative:bulkybookweb\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA7DAA1F-74A3-43DB-9471-4AEBC896A5AD}|BulkyBookWeb\\BulkyBookWeb.csproj|d:\\dot net\\bulkyweb\\bulkybookweb\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA7DAA1F-74A3-43DB-9471-4AEBC896A5AD}|BulkyBookWeb\\BulkyBookWeb.csproj|solutionrelative:bulkybookweb\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F01F66F7-FC34-4BEC-A830-841A204CB5A7}|..\\Bulky.Utility\\BulkyBook.Utility.csproj|d:\\dot net\\bulky.utility\\staticdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA7DAA1F-74A3-43DB-9471-4AEBC896A5AD}|BulkyBookWeb\\BulkyBookWeb.csproj|d:\\dot net\\bulkyweb\\bulkybookweb\\areas\\admin\\controllers\\productcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA7DAA1F-74A3-43DB-9471-4AEBC896A5AD}|BulkyBookWeb\\BulkyBookWeb.csproj|solutionrelative:bulkybookweb\\areas\\admin\\controllers\\productcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA7DAA1F-74A3-43DB-9471-4AEBC896A5AD}|BulkyBookWeb\\BulkyBookWeb.csproj|d:\\dot net\\bulkyweb\\bulkybookweb\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{BA7DAA1F-74A3-43DB-9471-4AEBC896A5AD}|BulkyBookWeb\\BulkyBookWeb.csproj|solutionrelative:bulkybookweb\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{BA7DAA1F-74A3-43DB-9471-4AEBC896A5AD}|BulkyBookWeb\\BulkyBookWeb.csproj|d:\\dot net\\bulkyweb\\bulkybookweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA7DAA1F-74A3-43DB-9471-4AEBC896A5AD}|BulkyBookWeb\\BulkyBookWeb.csproj|solutionrelative:bulkybookweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,7 +21,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -36,63 +32,42 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "D:\\dot NET\\BulkyWeb\\BulkyBookWeb\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "BulkyBookWeb\\ScaffoldingReadMe.txt",
-              "ToolTip": "D:\\dot NET\\BulkyWeb\\BulkyBookWeb\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "BulkyBookWeb\\ScaffoldingReadMe.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-07-29T14:30:57.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductController .cs",
-              "DocumentMoniker": "D:\\dot NET\\BulkyWeb\\BulkyBookWeb\\Areas\\Admin\\Controllers\\ProductController .cs",
-              "RelativeDocumentMoniker": "BulkyBookWeb\\Areas\\Admin\\Controllers\\ProductController .cs",
-              "ToolTip": "D:\\dot NET\\BulkyWeb\\BulkyBookWeb\\Areas\\Admin\\Controllers\\ProductController .cs",
-              "RelativeToolTip": "BulkyBookWeb\\Areas\\Admin\\Controllers\\ProductController .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T14:14:34.492Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\dot NET\\BulkyWeb\\BulkyBookWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "BulkyBookWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\dot NET\\BulkyWeb\\BulkyBookWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "BulkyBookWeb\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Title": "StaticData.cs",
+              "DocumentMoniker": "D:\\dot NET\\Bulky.Utility\\StaticData.cs",
+              "RelativeDocumentMoniker": "..\\Bulky.Utility\\StaticData.cs",
+              "ToolTip": "D:\\dot NET\\Bulky.Utility\\StaticData.cs",
+              "RelativeToolTip": "..\\Bulky.Utility\\StaticData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T14:13:49.454Z",
+              "WhenOpened": "2025-08-01T07:27:15.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\dot NET\\Bulky.DataAccess\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "..\\Bulky.DataAccess\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\dot NET\\Bulky.DataAccess\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "..\\Bulky.DataAccess\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\dot NET\\BulkyWeb\\BulkyBookWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "BulkyBookWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "D:\\dot NET\\BulkyWeb\\BulkyBookWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "BulkyBookWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAwwHIAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T13:58:44.821Z",
+              "WhenOpened": "2025-08-01T07:25:00.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\dot NET\\BulkyWeb\\BulkyBookWeb\\Program.cs",
+              "RelativeDocumentMoniker": "BulkyBookWeb\\Program.cs",
+              "ToolTip": "D:\\dot NET\\BulkyWeb\\BulkyBookWeb\\Program.cs",
+              "RelativeToolTip": "BulkyBookWeb\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T07:23:33.498Z",
               "EditorCaption": ""
             }
           ]
