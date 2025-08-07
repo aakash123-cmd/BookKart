@@ -1,10 +1,11 @@
 ﻿using BulkyBook.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace BulkyBook.DataAccess.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     // DbContext is the base class in EF Core used to interact with the database.
     // ApplicationDbContext is your custom context that tells EF Core what entities (tables) to track and how to configure them.
 
@@ -18,6 +19,8 @@ namespace BulkyBook.DataAccess.Data
 
         public DbSet<Category> Categories{ get; set; }
         public DbSet<Product> Products { get; set; }
+
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
         // DbSet<Category> tells EF Core to create or map a table called Categories in the database.
         // The Category class (from BulkyBookWeb.Models) defines the schema for this table(properties like Id, Name, DisplayOrder).
 

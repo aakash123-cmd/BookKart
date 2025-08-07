@@ -3,6 +3,9 @@ using BulkyBook.DataAccess.Repository;
 using BulkyBook.DataAccess.Repository.IRepository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.AspNetCore.Identity.UI;
+using BulkyBook.Utility;
 
 namespace BulkyBookWeb
 {
@@ -16,10 +19,18 @@ namespace BulkyBookWeb
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection1")));
+            
+            builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+            builder.Services.ConfigureApplicationCookie(options => {
+                options.LoginPath = $"/Identity/Account/Login";
+                options.LogoutPath = $"/Identity/Account/Login";
+                options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
+            });
 
-            builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddRazorPages();
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+            builder.Services.AddScoped<IEmailSender,EmailSender>();
+           
 
 
 
@@ -37,16 +48,17 @@ namespace BulkyBookWeb
             app.UseRouting();
             app.UseAuthentication();
             app.UseAuthorization();
-
+            app.MapRazorPages();
             app.MapStaticAssets();
 
-            app.MapRazorPages();
+           
           
 
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}")
                 .WithStaticAssets();
+           
 
             app.Run();
         }

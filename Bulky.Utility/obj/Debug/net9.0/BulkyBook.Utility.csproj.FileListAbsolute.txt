@@ -1,6 +1,7 @@
 D:\dot NET\Bulky.Utility\bin\Debug\net9.0\BulkyBook.Utility.deps.json
 D:\dot NET\Bulky.Utility\bin\Debug\net9.0\BulkyBook.Utility.dll
 D:\dot NET\Bulky.Utility\bin\Debug\net9.0\BulkyBook.Utility.pdb
+D:\dot NET\Bulky.Utility\obj\Debug\net9.0\BulkyBook.Utility.csproj.AssemblyReference.cache
 D:\dot NET\Bulky.Utility\obj\Debug\net9.0\BulkyBook.Utility.GeneratedMSBuildEditorConfig.editorconfig
 D:\dot NET\Bulky.Utility\obj\Debug\net9.0\BulkyBook.Utility.AssemblyInfoInputs.cache
 D:\dot NET\Bulky.Utility\obj\Debug\net9.0\BulkyBook.Utility.AssemblyInfo.cs

@@ -219,6 +219,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -298,7 +304,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.7, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
